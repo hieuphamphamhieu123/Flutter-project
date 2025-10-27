@@ -1,0 +1,16 @@
+name: todo_app
+description: A minimal Todo app demonstrating local state and persistence using SharedPreferences.
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,17 @@
+name: news_reader_app
+description: A minimal news reader app using NewsAPI.org, demonstrating http and FutureBuilder.
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  url_launcher: ^6.1.11
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,17 @@
+name: firebase_login_app
+description: A simple Firebase Auth example demonstrating email/password login and registration using firebase_core and firebase_auth.
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=2.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.0
+
+flutter:
+  uses-material-design: true
